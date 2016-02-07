@@ -1,4 +1,4 @@
-setwd(getwd())
+
 #install packages that are not already installed
 listofPackages <- "downloader"
 newPackages <- listofPackages[!(listofPackages %in% installed.packages()[,"Package"])]
