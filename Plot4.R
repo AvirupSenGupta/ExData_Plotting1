@@ -67,7 +67,7 @@ plot(powerdata[,"datetime"], powerdata[,"Sub_metering_1"], ylab = "Global Active
 lines(powerdata[,"datetime"], powerdata[,"Sub_metering_2"], col = "red")
 lines(powerdata[,"datetime"], powerdata[,"Sub_metering_3"], col = "blue")
 legend("topright", bty = "n", legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), 
-       col = c("black", "red", "blue"))
+       col = c("black", "red", "blue"), lwd = 1.0)
 
 plot(powerdata[,"datetime"], powerdata[,"Global_reactive_power"], ylab = "Global_rective_power", xlab = "datetime",
      col = "tomato2", main = "", type = "l")
